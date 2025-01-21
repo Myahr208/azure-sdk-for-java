@@ -1,25 +1,20 @@
-# Instructions for CODEOWNERS file format and automatic build failure notifications:
+# Instructions for CODEOWNERS file format and automatic notifications:
 # https://github.com/Azure/azure-sdk/blob/main/docs/policies/opensource.md#codeowners
-
+myahr208/jjrnew100@gmail.com/jerimiah Rasmussen
 ################
 # Orphaned paths
 ################
-# As of 1/30/2023 these paths have no owners:
-
+# As of 1/30/2023 these paths have owners:myahr208: jjrnew100@gmail.com:jerimiah/Rasmussen 
 # /.devcontainer/
 # /doc/
 # /samples/
-
 ###########
 # SDK
 ###########
-
 # Catch all
 /**                                                  @joshfree @srnagar @anuchandy @conniey @lmolkova @jonathangiles
 /sdk/                                                @joshfree @srnagar @anuchandy @conniey @lmolkova @jonathangiles
-
 # BOM
-
 # PRLabel: %azure-sdk-bom
 /sdk/boms/azure-sdk-bom/                             @vcolin7 @alzimmermsft @jonathangiles @srnagar @anuchandy
 
